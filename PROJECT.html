@@ -2,7 +2,217 @@
 <html>
 <head>
     <title> Portfolio </title>
-    <link rel="stylesheet" href="styl.css">
+   <style>
+       body {
+    background-color: #f5f6fa;
+    color: #2d3436;
+}
+
+.header {
+    background-color: #2d3436;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.header h1 {
+    font-size: 45px;
+    color: #ffffff;
+}
+
+.header p {
+    font-size: 17px;
+    color: #b2bec3;
+}
+
+.nav {
+    background-color: #636e72;
+    text-align: center;
+    padding: 14px;
+}
+
+.nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 12px;
+    font-size: 15px;
+    padding: 8px 16px;
+}
+
+.nav a:hover {
+    background-color: #2d3436;
+    color: #ffffff;
+}
+
+.section {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.section h2 {
+    font-size: 26px;
+    color: #2d3436;
+    margin-bottom: 20px;
+    text-align: center;
+    border-bottom: 2px solid #636e72;
+    padding-bottom: 8px;
+}
+
+#about {
+    background-color: #ffffff;
+    border: 1px solid #dfe6e9;
+    padding: 30px;
+    margin: 20px auto;
+    max-width: 900px;
+}
+
+.pic {
+    float: left;
+    width: 180px;
+    height: 200px;
+    background-color: #dfe6e9;
+    border: 1px solid #b2bec3;
+    margin-right: 25px;
+    text-align: center;
+    line-height: 220px;
+    font-size: 14px;
+    color: #636e72;
+}
+
+.about-text {
+    overflow: hidden;
+    font-size: 15px;
+    line-height: 1.9;
+    color: #2d3436;
+}
+
+.about-text h3 {
+    color: #2d3436;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.info-grid {
+    width: 90%;
+    margin: 20px auto;
+}
+
+.info-box {
+    background-color: #f5f6fa;
+    border-left: 4px solid #636e72;
+    padding: 15px 20px;
+    margin-bottom: 12px;
+}
+
+.info-box h3 {
+    color: #2d3436;
+    font-size: 16px;
+    margin-bottom: 6px;
+}
+
+.info-box p {
+    color: #2d3436;
+    font-size: 15px;
+}
+
+.tag {
+    display: inline-block;
+    background-color: #2d3436;
+    color: #ffffff;
+    padding: 6px 16px;
+    margin: 4px;
+    font-size: 14px;
+}
+
+.tag:hover {
+    background-color: #636e72;
+}
+
+.tag-section {
+    margin-top: 10px;
+}
+
+#skills {
+    background-color: #ffffff;
+    border: 1px solid #dfe6e9;
+    padding: 30px;
+    margin: 20px auto;
+    max-width: 900px;
+}
+
+#activities {
+    background-color: #ffffff;
+    border: 1px solid #dfe6e9;
+    padding: 30px;
+    margin: 20px auto;
+    max-width: 900px;
+}
+
+#contact {
+    background-color: #2d3436;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#contact h2 {
+    color: #ffffff;
+    font-size: 26px;
+    margin-bottom: 25px;
+}
+
+.contact-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.contact-photo {
+    float: left;
+    width: 160px;
+    height: 200px;
+    background-color: #636e72;
+    border: 1px solid #b2bec3;
+    text-align: center;
+    line-height: 200px;
+    font-size: 13px;
+    color: #ffffff;
+    margin-right: 25px;
+}
+
+.contact-details {
+    overflow: hidden;
+    text-align: center;
+}
+
+.contact-details p {
+    font-size: 15px;
+    color: #dfe6e9;
+    margin-bottom: 10px;
+    line-height: 1.8;
+}
+
+.contact-details span {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.contact-details a {
+    color: #b2bec3;
+    text-decoration: none;
+}
+
+.contact-details a:hover {
+    text-decoration: underline;
+    color: #ffffff;
+}
+       
+.footer {
+    background-color: #1e272e;
+    color: #b2bec3;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+}
+   </style>
 </head>
 <body>
     <div class="header">
@@ -19,7 +229,7 @@
 
     <div class="section" id="about">
         <h2>About Me</h2>
-            <div class="photo-box">[Your Photo]</div>
+            <div class="photo-box"><img src="#" alt="sourish" class="pic"></div>
             <div class="about-text">
                 <h3>Sourish Bajaj</h3>
                 <p>Born on 15 Oct 2008, I'm an AI&B student at Scaler School of Technology,BLR.
@@ -87,8 +297,8 @@
     <div id="contact">
         <h2>Get In Touch</h2>
             <div class="contact-details">
-                <p><span>Email:</span> <a href="mailto:sourish@example.com">sourish.26bcs10227@sst.scaler.com</a></p>
-                <p><span>Phone:</span> <a href="tel:+917042761207">+91 70427 61207</a></p>
+                <p><span>Email:</span> <a href="#">sourish.26bcs10227@sst.scaler.com</a></p>
+                <p><span>Phone:</span> <a href="#">+91 70427 61207</a></p>
                 <p><span>Location:</span> India</p>
                 <p><span>LinkedIn:</span> <a href="#">linkedin.com/in/sourishbajaj</a></p>
                 <p><span>GitHub:</span> <a href="#">github.com/sourishbajaj</a></p>
